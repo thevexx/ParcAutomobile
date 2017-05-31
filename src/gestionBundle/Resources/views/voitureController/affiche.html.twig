@@ -1,0 +1,20 @@
+{% extends "::base.html.twig" %}
+{% block body %}
+    <div class="banner-info1">
+        <div class="container">
+            {% for voiture in voitures %}
+                <div class="well">
+                    <Center>
+                        Marque : {{voiture.Marque}}<br/>
+                        Date Mise en Circulation : {{voiture.dateCir | date('M j, Y')}}<br/>
+                        Serie : {{voiture.Serie}}<br/>
+                        id : {{voiture.id}}<br/>
+                        Modele : {{voiture.ModeleId.libele}}<br/>
+                        Pays : {{voiture.ModeleId.pays}}<br/>
+                    </Center>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+{% endblock body %}
