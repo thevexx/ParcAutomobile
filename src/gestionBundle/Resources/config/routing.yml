@@ -1,3 +1,10 @@
 gestion_homepage:
     path:     /
     defaults: { _controller: gestionBundle:Default:index }
+
+affiche_voiture:
+    path:     /affiche
+    defaults: { _controller: gestionBundle:voitureController:afficheVoiture }
+ajout_voiture:
+    path:     /ajouter
+    defaults: { _controller: gestionBundle:voitureController:ajouterVoiture }
