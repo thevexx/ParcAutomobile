@@ -1,5 +1,4 @@
 /.web-server-pid
-/app/config/parameters.yml
 /build/
 /phpunit.xml
 /var/*
@@ -18,3 +17,4 @@
 .idea/workspace.xml
 src/gestionBundle/Entity/Modele.php~
 src/gestionBundle/Entity/Voiture.php~
+/app/config/parameters.yml
